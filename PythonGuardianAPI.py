@@ -7,7 +7,6 @@ from datetime import date, timedelta
 ARTICLES_DIR = join('tempdata', 'articles')
 makedirs(ARTICLES_DIR, exist_ok=True)
 
-#MY_API_KEY = open("creds_guardian.txt").read().strip()
 API_ENDPOINT = 'http://content.guardianapis.com/search'
 my_params = {
     'from-date': "2018-07-03",
@@ -15,7 +14,7 @@ my_params = {
     'order-by': "newest",
     'show-fields': 'all',
     'page-size': 200,
-    'api-key': "26834484-d034-4638-b2ba-f4235af65dc2"
+    'api-key': "API KEY HERE"
 }
 
 
